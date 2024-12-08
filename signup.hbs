@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>signup</title>
+  <style>
+    body {
+      background: aqua;
+       font-family: Arial, Helvetica, sans-serif;
+      
+       
+    }
+
+    .heading {
+      text-align: center;
+    }
+    .container {
+    padding: 16px;
+   
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], input[type=password] {
+  width: 40%;
+  padding: 5px;
+  margin: 5px 0 15px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+input[type=text], input[type=mail] {
+  width: 40%;
+  padding: 5px;
+  margin: 5px 0 15px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+input[type=text]:focus, input[type=password]:focus {
+  outline: none;
+}
+.registerbtn {
+  background-color: #0d3f86;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 40%;
+  opacity: 0.9;
+}
+.registerbtn:hover {
+  opacity: 1;
+}
+hr {
+  border: 4px solid brown;
+  margin-bottom: 15px;
+}
+form {
+      width: 65rem;
+      margin: auto 35%;
+      color:black;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="heading">
+    <marquee>
+      <h2>IET DAVV REGISTRATION PAGE</h2>
+    </marquee>
+    <hr>
+    <h3>Fill the Details</h3>
+  </div>
+  
+  <form action="/signup" method="post">
+  <div class="container">
+    <label for="name">Name: </label><br>
+    <input type="text" name="name" placeholder="Enter your name" required><br>
+
+    <label for="lname">Last name: </label><br>
+    <input type="text" name="lname" placeholder="Enter your lname" required><br>
+
+    <label for="fname">Father name: </label><br>
+    <input type="text" name="fname" placeholder="Enter your Father name" required><br>
+
+    <label for="mname">Mother name: </label><br>
+    <input type="text" name="mname" placeholder="Enter your Mother name" required><br>
+
+<label for="gender"> Gender: </label> 
+<input type="radio" id="gender" name="gender" value="male"/ required> Male  
+<input type="radio" id="gender" name="gender" value="female"/ required> Female  <br><br>
+
+    <label for="date">Birthday: </label>
+    <input type="date" name="date" required><br><br>
+
+    <label for="mail">Mail id: </label><br>
+    <input type="mail" name="mail" placeholder="Enter your mail" required><br>
+
+    <label for="password">Password: </label><br>
+    <input type="password" name="password" placeholder=" Enter your Password" required><br>
+
+    <label for="file">Allotment letter:</label>
+    <input type="file" id="file" name="file" required><br><br>
+
+    <label for="address">Address: </label>
+    <textarea type="text" name="address" placeholder="Enter your address" required ></textarea><br><br>
+
+  <button type="submit" class="registerbtn">Register</button>
+  
+
+   </div>
+  </form>
+   
+</body>
+
+</html>
