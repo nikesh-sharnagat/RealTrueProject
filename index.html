@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Real Trust</title>
+  <style>
+    body {
+      
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      background-color: #ffffff;
+    }
+    header .logo {
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+    header nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+    }
+    header .contact-btn {
+      background-color: #ff6600;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .hero-section1 {
+      background-image: url("header_image/back.svg");
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 50px;
+      background-color: #f8f9fa;
+    }
+    .hero-section1 .content {
+      max-width: 50%;
+      color: #f7f3f3;
+    }
+    .hero-section1 .content h1 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+    }
+    .hero-section1 .form {
+      background:rgba(33, 76, 129, 0.9);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      padding: 35px;
+      border-radius: 8px;
+      color: white;
+      max-width: 300px;
+    }
+    .hero-section1 .form h3 {
+      margin-bottom: 20px;
+    }
+    .hero-section1 .form input, .hero-section1 .form button {
+      width: 100%;
+      margin-bottom: 10px;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      background:rgba(33, 76, 129, 0.9);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    .hero-section1 .form input {
+      background-color: white;
+      color: #333;
+    }
+    .hero-section1 .form button {
+      background-color: #ff6600;
+      color: white;
+      cursor: pointer;
+    }
+    /*////////////////////////////////*/
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.realtor-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: #fff;
+    color: #333;
+}
+
+.text-content {
+    max-width: 400px;
+    margin-right: 350px;
+}
+
+.text-content h1 {
+    font-size: 150%;
+    color: #1f78d1;
+    margin-bottom: 20px;
+}
+
+.text-content p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.image-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.main-image {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    border: 3px solid #1f78d1;
+}
+
+.main-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sub-images {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.sub-images img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 2px solid #f15b23;
+}
+/* ////////////////////////////////// */
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.why-choose-us {
+    text-align: center;
+    padding: 50px 20px;
+    background: #fff;
+}
+
+.why-choose-us h2 {
+    font-size: 2rem;
+    color: #1f78d1;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.why-choose-us h2::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 3px;
+    background: #1f78d1;
+    margin: 10px auto 0;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.feature {
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+}
+
+.feature .icon {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 15px;
+    background: #eaf4ff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature .icon img {
+    width: 40px;
+    height: 40px;
+}
+
+.feature h3 {
+    font-size: 1.2rem;
+    color: #1f78d1;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 0.95rem;
+    color: #555;
+    line-height: 1.6;
+}
+/* //////////////////////////////////////// */
+body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+    }
+    .container {
+      text-align: center;
+      padding: 40px 20px;
+    }
+    .images {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .images img {
+      width: 200px;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .about-text {
+      margin-top: 20px;
+    }
+    .about-text h2 {
+      font-size: 24px;
+      color: #333;
+    }
+    .about-text p {
+      font-size: 16px;
+      color: #555;
+      margin: 10px 0 20px;
+      line-height: 1.6;
+      padding: 0 120px 0px 100px;
+    }
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 16px;
+      color: #fff;
+      background-color: #007bff;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+    .button:hover {
+      background-color: #0056b3;
+    }
+    /* //////////////////////////////// */
+    body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+.projects {
+  text-align: center;
+  padding: 20px 20px;
+  background-color: #fff;
+}
+
+.projects h2 {
+  font-size: 2rem;
+  color: #0056d6;
+}
+
+.projects p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.project-card {
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  padding: 20px;
+}
+
+.project-card img {
+  max-width: 60%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.project-card h3 {
+  font-size: 1.2rem;
+  color: #333;
+  margin: 10px 0;
+}
+
+.project-card p {
+  color: #777;
+  font-size: 0.9rem;
+}
+
+.project-card button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #ff5722;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.project-card button:hover {
+  background-color: #e64a19;
+}
+
+/* //////////////////////////////// */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+.happy-clients {
+  text-align: center;
+  padding: 50px 50px;
+  background-color: #fff;
+}
+
+.happy-clients h2 {
+  font-size: 2rem;
+  color: #0056d6;
+  margin-bottom: 40px;
+}
+
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.testimonials {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.testimonial-card {
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+.testimonial-card img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.testimonial-card p {
+  font-size: 0.9rem;
+  color: #777;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+.testimonial-card h4 {
+  font-size: 1.1rem;
+  color: #333;
+  margin: 5px 0;
+}
+
+.testimonial-card span {
+  font-size: 0.9rem;
+  color: #0056d6;
+}
+/* //////////////////////////////// */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Learn More Section */
+.learn-more {
+  position: relative;
+  background: url('background.jpg') no-repeat center center/cover;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.learn-more .overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.learn-more h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.learn-more button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #0056d6;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.learn-more button:hover {
+  background-color: #0041aa;
+}
+
+/* Footer */
+.footer {
+  background-color: #0056d6;
+  color: #fff;
+  padding: 20px 10px;
+}
+
+.footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-nav a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.footer-nav a:hover {
+  text-decoration: underline;
+}
+
+.subscribe {
+  margin: 20px 0;
+}
+
+.subscribe label {
+  display: block;
+  font-size: 0.9rem;
+  margin-bottom: 5px;
+}
+
+.subscribe input {
+  padding: 10px;
+  width: 200px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.subscribe button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #0056d6;
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.subscribe button:hover {
+  background-color: #e6e6e6;
+}
+
+.footer p {
+  margin: 10px 0;
+  font-size: 0.8rem;
+}
+
+.social-links a img {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+/* //////////////////// */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero-section {
+    background: url('Lead Generation Landing page (Images)/Rectangle.svg') center/cover no-repeat;
+    color: rgb(251, 250, 250);
+    text-align: center;
+    padding: 60px 270px;
+}
+
+.hero-content h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.navbar {
+    background-color: #007bff;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar ul li {
+    margin-right: 15px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.subscribe-section {
+    display: flex;
+    align-items: center;
+}
+
+.subscribe-section input {
+    padding: 5px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.subscribe-section button {
+    padding: 5px 10px;
+    background-color: white;
+    color: #007bff;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+footer {
+    background-color: #070202;
+    display: flex;
+      justify-content: space-between;
+      align-items: center;
+    color: white;
+    text-align: center;
+    padding: 10px 10;
+    font-size: 14px;
+}
+
+.social-icons a {
+    margin: 0px 10px ;
+    display: inline-block;
+}
+  </style>
+</head>
+<body>
+  <header>
+    <img src="header_image/logo.svg" alt="" height="50px">
+    
+    <nav>
+      <a class="nav-link js-scroll active" href="#home">Home</a>
+      <a class="nav-link js-scroll active" href="#Services">Services</a>
+      <a class="nav-link js-scroll active" href="#About">About</a>
+      <a class="nav-link js-scroll active" href="#Project">Projects</a>
+      <a class="nav-link js-scroll active" href="#Testimonials">Testimonials</a>
+    </nav>
+    <button class="contact-btn">Contact</button>
+  </header>
+  <section class="hero-section1">
+    <div class="content">
+      <h1>Consultation, Design, & Marketing</h1>
+    </div>
+    <div class="form">
+      <h3>Get a Free Consultation</h3>
+      <input type="text" placeholder="Full Name">
+      <input type="email" placeholder="Enter Email Address">
+      <input type="text" placeholder="Mobile Number">
+      <input type="text" placeholder="Select City">
+      <button>Get Quick Quote</button>
+    </div>
+  </section>
+  <section class="realtor-section">
+    <div class="text-content">
+        <h1>Not Your Average Realtor</h1>
+        <p>
+            Your trusted partner for your property needs, delivering personalized solutions and unmatched expertise.
+        </p>
+    </div>
+    <div class="image-content">
+        <div class="main-image">
+            <img src="Lead Generation Landing page (Images)/Ellipse 11.svg" alt="Main Realtor">
+        </div>
+        <div class="sub-images">
+            <img src="Lead Generation Landing page (Images)/Ellipse 12.svg" alt="Couple with Realtor">
+            <img src="Lead Generation Landing page (Images)/Ellipse 13.svg" alt="Realtor Holding Model House">
+        </div>
+    </div>
+</section>
+<section class="why-choose-us">
+  <h2>Why Choose Us?</h2>
+  <div class="features">
+      <div class="feature">
+          <div class="icon">
+              <img src="Lead Generation Landing page (Icons)/home.svg" alt="Potential ROI Icon">
+          </div>
+          <h3>Potential ROI</h3>
+          <p>
+              Whether you're looking to buy a home or renovate, our services will ensure you achieve better value and returns.
+          </p>
+      </div>
+      <div class="feature">
+          <div class="icon">
+              <img src="Lead Generation Landing page (Icons)/paintbrush-2.svg" alt="Design Icon">
+          </div>
+          <h3>Design</h3>
+          <p>
+              Our strategies and designs deliver results, helping you achieve functional and aesthetic home improvements.
+          </p>
+      </div>
+      <div class="feature">
+          <div class="icon">
+              <img src="Lead Generation Landing page (Icons)/circle-dollar-sign.svg" alt="Marketing Icon">
+          </div>
+          <h3>Marketing</h3>
+          <p>
+              Leverage proven marketing strategies for faster property sales and a stronger market presence.
+          </p>
+      </div>
+  </div>
+</section>
+<section>
+<div class="container">
+  <div class="images">
+    <img src="Lead Generation Landing page (Images)/pexels-brett-sayles-2881232-1.svg" alt="Handshake">
+    <img src="Lead Generation Landing page (Images)/pexels-andres-ayrton-6578391.svg" alt="Touring a property">
+    <img src="Lead Generation Landing page (Images)/pexels-fauxels-3182834.svg" alt="Discussion">
+    
+  </div>
+  <div class="about-text">
+    <h2>About Us</h2>
+    <p>
+      Fifteen years of experience in real estate, excellent customer service,
+      and a commitment to work hard, listen, and follow through. We provide
+      quality services to build relationships with clients and, more
+      importantly, maintain those relationships by communicating effectively.
+    </p>
+    <a href="#" class="button">Learn More</a>
+  </div>
+  
+</div>
+
+</section>
+
+<section class="projects">
+  <div class="container">
+    <h2>Our Projects</h2>
+    <p>We know what buyers are looking for and suggest projects that will bring clients top dollar for the sale of their homes.</p>
+    <div class="project-grid">
+      <div class="project-card">
+        <img src="Lead Generation Landing page (Images)/pexels-brett-sayles-2881232.svg" alt="Consultation">
+        <h3>Consultation</h3>
+        <p>Project ideas • benefits</p>
+        <button>Send Quote</button>
+      </div>
+      <div class="project-card">
+        <img src="Lead Generation Landing page (Images)/pexels-brett-sayles-2881232-1.svg" alt="Design">
+        <h3>Design</h3>
+        <p>Project ideas • benefits</p>
+        <button>Send Quote</button>
+      </div>
+      <div class="project-card">
+        <img src="Lead Generation Landing page (Images)/pexels-brett-sayles-2881232-2.svg" alt="Marketing & Design">
+        <h3>Marketing & Design</h3>
+        <p>Project ideas • benefits</p>
+        <button>Send Quote</button>
+      </div>
+      <div class="project-card">
+        <img src="Lead Generation Landing page (Images)/pexels-brett-sayles-2881232-3.svg" alt="Consultation & Marketing">
+        <h3>Consultation & Marketing</h3>
+        <p>Project ideas • benefits</p>
+        <button>Send Quote</button>
+      </div>
+      <div class="project-card">
+        <img src="Lead Generation Landing page (Images)/pexels-fauxels-3182834.svg" alt="Consultation">
+        <h3>Consultation</h3>
+        <p>Project ideas • benefits</p>
+        <button>Send Quote</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="happy-clients">
+  <div class="container">
+    <h2>Happy Clients</h2>
+    <div class="testimonials">
+      <div class="testimonial-card">
+        <img src="Lead Generation Landing page (Images)/Ellipse 28.svg" alt="Client 1">
+        <p>"I am extremely satisfied with the service. Highly recommended!"</p>
+        <h4>Rosanna Smith</h4>
+        <span>CEO, Happy Homes</span>
+      </div>
+      <div class="testimonial-card">
+        <img src="Lead Generation Landing page (Images)/Ellipse 29.svg" alt="Client 2">
+        <p>"Amazing experience, professional team, and great results!"</p>
+        <h4>Shreya Kapoor</h4>
+        <span>Founder, Elegance</span>
+      </div>
+      <div class="testimonial-card">
+        <img src="Lead Generation Landing page (Images)/Ellipse 31.svg" alt="Client 3">
+        <p>"Top-notch service. Would love to work with them again."</p>
+        <h4>John Lopez</h4>
+        <span>Managing Director, Realty Corp.</span>
+      </div>
+      <div class="testimonial-card">
+        <img src="Lead Generation Landing page (Images)/Ellipse 33.svg" alt="Client 4">
+        <p>"Fantastic results. They exceeded our expectations."</p>
+        <h4>Marry Isaacson</h4>
+        <span>Designer, Design & Me</span>
+      </div>
+      <div class="testimonial-card">
+        <img src="Lead Generation Landing page (Images)/Ellipse 35.svg" alt="Client 5">
+        <p>"Incredible service, highly professional, and efficient."</p>
+        <h4>Lucy</h4>
+        <span>Sales Rep, Chic Homes</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<header>
+  <div class="hero-section">
+   
+      <div class="hero-content">
+          <h1>Learn more about our listing process, as well as our additional staging and design work.</h1>
+          <button class="cta-button">Learn More</button>
+      </div>
+  </div>
+</header>
+<nav class="navbar">
+  <ul>
+      <li><a class="nav-link js-scroll active" href="#">Home</a></li>
+      <li><a class="nav-link js-scroll active" href="#">Services</a></li>
+      <li><a class="nav-link js-scroll active" href="#">Projects</a></li>
+      <li><a class="nav-link js-scroll active" href="#">Testimonials</a></li>
+      <li><a class="nav-link js-scroll active" href="contact.html">Contact</a></li>
+  </ul>
+  <div class="subscribe-section">
+      <input type="email" placeholder="Enter Email Address">
+      <button>Subscribe</button>
+  </div>
+</nav>
+<footer>
+  <p>All Rights Reserved © 2023</p>
+  
+  <img src="header_image/logo.svg" alt="" height="50px">
+  <div class="social-icons">
+      <a href="#"><img src="Lead Generation Landing page (Icons)/Group-1.svg" alt="Twitter"></a>
+      <a href="#"><img src="Lead Generation Landing page (Icons)/Frame.svg" alt="Facebook"></a>
+      <a href="#"><img src="Lead Generation Landing page (Icons)/Group.svg" alt="Instagram"></a>
+      <a href="#"><img src="Lead Generation Landing page (Icons)/Linkedin.svg" alt="LinkedIn"></a>
+  </div>
+</footer>
+</body>
+</html>
